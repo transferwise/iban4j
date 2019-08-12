@@ -96,7 +96,7 @@ public class BbanStructure {
 
         structures.put(CountryCode.CR,
                 new BbanStructure(
-                        BbanStructureEntry.bankCode(3, 'n'),
+                        BbanStructureEntry.bankCode(4, 'n'),
                         BbanStructureEntry.accountNumber(14, 'n')));
 
         structures.put(CountryCode.DE,
